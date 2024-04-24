@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+/* {common paragraph style started } */
+.common-Paragraph {
+  @apply font-Poppins text-navLink  font-medium leading-7 opacity-paraOPacity;
+}
+.common-ParagraphTwo {
+  @apply font-Poppins text-navLink  font-medium leading-7 opacity-70;
+}
+.common-ParaThree {
+  @apply font-Poppins text-navLink  font-medium leading-7;
+}
+/* {common paragraph style ended } */
+
+/* {common heading style ended } */
+.common-Heading5 {
+  @apply font-Poppins text-Heading5  font-medium leading-8  text-DarkBlue;
+}
+
+.common-HeadingTwo {
+  @apply font-Poppins font-semibold leading-SixtyFour text-5xl;
+}
+
+.Main-Heading {
+  @apply font-Poppins text-fiftyFour font-semibold leading-seventyFour;
+}
+
+.HeadingFive {
+  @apply font-Poppins text-thirtyTwo font-medium leading-fourtyEight;
+}
+
+.HeadingFive-one {
+  @apply font-Poppins text-thirtyTwo font-normal leading-fourtyEight;
+}
+.Heading-Six {
+  @apply font-Poppins text-2xl font-normal leading-9;
+}
+.Heading-Six-2nd {
+  @apply font-Poppins text-2xl font-medium leading-9;
+}
+.Heading-Six-3rd {
+  @apply font-Poppins text-2xl font-medium leading-8;
+}
+.Heading-two {
+  @apply font-Poppins text-5xl font-semibold leading-fourtyEight;
+}
+.Heading-Five {
+  @apply font-Poppins text-thirtyEight font-semibold leading-fiftySix;
+}
+
+.Heading-Three {
+  @apply font-Poppins text-thirtyEight font-semibold leading-fiftySix;
+}
+
+/* {common heading style ended } */
+
+/* {common button style started } */
+.common-Btn {
+  @apply py-sixteen px-fiftySix rounded-navbarBtnRadius bg-yellow text-black text-base capitalize font-semibold font-manrope leading-8  border-NavbarBtnBorder border-transparent
+  hover:border-solid hover:bg-transparent hover:border-NavbarBorderColor hover:text-white transition duration-100;
+}
+.NavBtn {
+  @apply h-navbarBtnHeight bg-black w-NavbarBtn rounded-navbarBtnRadius bg-transparent border-NavbarBtnBorder border-solid border-NavbarBorderColor  Navbar-Link text-white hover:border-r-transparent hover:border-transparent hover:bg-yellow transition duration-100 hover:text-black;
+}
+
+.common-yellow-BlackBtn {
+  @apply py-sixteen px-fiftySix rounded-navbarBtnRadius bg-yellow text-DarkBlue text-base capitalize font-semibold font-manrope leading-8  border-NavbarBtnBorder border-transparent hover:border-solid hover:bg-DarkBlue  hover:text-white transition duration-100;
+}
+.blackBtn {
+  @apply py-sixteen px-fiftySix rounded-navbarBtnRadius bg-DarkBlue text-white text-base capitalize font-semibold font-manrope leading-8  border-NavbarBtnBorder border-transparent hover:border-solid hover:bg-yellow hover:text-DarkBlue transition duration-100;
+}
+
+/* {common button style ended } */
+
+/* {common lebel style started } */
+.label-two {
+  @apply font-Poppins text-navLink  font-medium leading-7 capitalize;
+}
+
+.label-one {
+  @apply font-Poppins text-lg  font-medium leading-8 capitalize;
+}
+
+.mixed-label {
+  @apply font-Poppins text-navLink  font-normal leading-8 capitalize;
+}
+
+.label-five {
+  @apply font-Poppins text-2xl font-semibold leading-8 capitalize;
+}
+
+/* {common lebel style ended } */
+
+/* {common body paragraph style started } */
+.Navbar-Link {
+  @apply font-Poppins text-navLink capitalize font-medium leading-7;
+}
+.Body-One {
+  @apply font-Poppins text-base font-normal leading-7 opacity-70;
+}
+
+.Body-One-2nd {
+  @apply font-Poppins text-base font-normal leading-7;
+}
+
+.Cap-two {
+  @apply font-Poppins text-xs font-semibold leading-7;
+}
+
+.Body-Two {
+  @apply font-Poppins text-base font-medium leading-7 opacity-70;
+}
+
+/* {common body paragrpah style ended } */
+
+/* {common body form and input style started } */
+.inputStyle {
+  @apply h-sixtyFour w-full bg-transparent border-onePointFive rounded-lg border-fadeWhite outline-none px-8 placeholder:capitalize;
+}
+
+.formInput {
+  @apply h-sixtyFour w-full bg-transparent border-one rounded-lg border-creamWhite outline-none px-8 placeholder:capitalize placeholder:text-black;
+}
+
+/* {common body form and input style ended } */
