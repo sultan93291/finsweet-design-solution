@@ -5,7 +5,6 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
     "node_modules/keep-react/**/*.{js,jsx,ts,tsx}",
   ],
-  presets: [keepPreset],
   theme: {
     extend: {
       height: {
