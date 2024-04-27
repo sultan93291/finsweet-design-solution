@@ -8,7 +8,8 @@
   height: 0px;
 }
 
-/* {common paragraph style started } */
+
+  /* {common paragraph style started } */
 .common-Paragraph {
   @apply font-Poppins text-navLink  font-medium leading-7 opacity-paraOPacity;
 }
@@ -131,3 +132,4 @@
 }
 
 /* {common body form and input style ended } */
+
