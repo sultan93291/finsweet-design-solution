@@ -47,20 +47,20 @@ const Projects = () => {
             </span>
           </div>
         </div>
-        <div className="flex flex-col gap-8 relative after:absolute after:content-[''] after:h-twoEightyFour after:w-FourOFive after:bg-Blue_gradient  after:top-0 after:left-1 after:z-20 after:opacity-0 group hover:after:opacity-100 hover:transition hover:duration-150  ">
+        <div className="flex flex-col gap-8 relative  w-FourOFive  after:absolute after:content-[''] after:h-twoEightyFour after:w-fouro_Five after:bg-Blue_gradient  after:top-0 after:left-1 after:z-20 after:opacity-0 group hover:after:opacity-100 hover:transition hover:duration-150  ">
           <IMG
             src={"/Images/Home/Projects/uninas.jpg"}
             alt={"uninas img"}
             width={405}
             height={284}
-            className={"h-full w-full bg-cover"}
+            className={"h-twoEightyFour w-full bg-cover"}
           />
           <IMG
             src={"/Images/Home/Projects/chruch.jpg"}
             alt={"chruch img"}
             width={405}
             height={284}
-            className={"h-full w-full bg-cover"}
+            className={" h-twoEightyFour w-full bg-cover"}
           />
           <div className=" absolute top-0 left-0 z-30 ml-14 mt-hundredTwentyNine flex flex-col gap-10 ">
             <div className="opacity-0 group-hover:opacity-100  group-hover:transition group-hover:duration-150">
