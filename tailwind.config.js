@@ -166,6 +166,12 @@ module.exports = {
       opacity: {
         paraOPacity: "0.8",
       },
+      backgroundImage: {
+        Blue_gradient:
+          "linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%)",
+        teamGradient:
+          "linear-gradient(348deg, #5239FA 17.97%, rgba(255, 255, 255, 0.00) 79.2%)",
+      },
     },
   },
   plugins: [],

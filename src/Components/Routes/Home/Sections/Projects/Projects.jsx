@@ -19,7 +19,7 @@ const Projects = () => {
         </span>
       </div>
       <div className="flex gap-8 ">
-        <div className=" h-sixHundred w-eightFourtyThree relative after:absolute after:content-[''] after:h-sixHundred after:w-threeNintySix after:bg-blue_linear  after:top-0 after:left-0 after:z-20 ">
+        <div className=" h-sixHundred w-eightFourtyThree relative after:absolute after:content-[''] after:h-sixHundred after:w-threeNintySix after:bg-Blue_gradient  after:top-0 after:left-0 after:z-20 after:opacity-0 group hover:after:opacity-100 hover:transition hover:duration-150 ">
           <IMG
             src={"/Images/Home/Projects/workhub.jpg"}
             alt={"workhub img"}
@@ -27,8 +27,8 @@ const Projects = () => {
             height={600}
             className={"h-full w-full bg-cover"}
           />
-          <div className=" absolute top-0 left-0 z-30 ml-12 mt-threeOneTwo flex flex-col gap-10 ">
-            <div className="flex flex-col gap-4">
+          <div className=" absolute top-0 left-0 z-30 ml-12 mt-threeOneTwo flex flex-col gap-10 opacity-0 group-hover:opacity-100  group-hover:transition group-hover:duration-150 ">
+            <div className="flex flex-col gap-4  ">
               <Heading
                 Heading={"h5"}
                 text={"Workhub office Webflow Webflow Design"}
@@ -47,7 +47,7 @@ const Projects = () => {
             </span>
           </div>
         </div>
-        <div className="flex flex-col gap-8 relative after:absolute after:content-[''] after:h-twoEightyFour after:w-FourOFive after:bg-blue_linear  after:top-0 after:left-1 after:z-20  ">
+        <div className="flex flex-col gap-8 relative after:absolute after:content-[''] after:h-twoEightyFour after:w-FourOFive after:bg-Blue_gradient  after:top-0 after:left-1 after:z-20 after:opacity-0 group hover:after:opacity-100 hover:transition hover:duration-150  ">
           <IMG
             src={"/Images/Home/Projects/uninas.jpg"}
             alt={"uninas img"}
@@ -62,7 +62,7 @@ const Projects = () => {
             height={284}
           />
           <div className=" absolute top-0 left-0 z-30 ml-14 mt-hundredTwentyNine flex flex-col gap-10 ">
-            <div className="">
+            <div className="opacity-0 group-hover:opacity-100  group-hover:transition group-hover:duration-150">
               <Heading
                 Heading={"h5"}
                 text={"Unisaas Website Design"}
