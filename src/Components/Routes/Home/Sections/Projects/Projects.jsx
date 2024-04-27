@@ -60,6 +60,7 @@ const Projects = () => {
             alt={"chruch img"}
             width={405}
             height={284}
+            className={"h-full w-full bg-cover"}
           />
           <div className=" absolute top-0 left-0 z-30 ml-14 mt-hundredTwentyNine flex flex-col gap-10 ">
             <div className="opacity-0 group-hover:opacity-100  group-hover:transition group-hover:duration-150">
