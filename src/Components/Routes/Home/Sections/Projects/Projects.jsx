@@ -62,8 +62,8 @@ const Projects = () => {
             height={284}
             className={" h-twoEightyFour w-full bg-cover"}
           />
-          <div className=" absolute top-0 left-0 z-30 ml-14 mt-hundredTwentyNine flex flex-col gap-10 ">
-            <div className="opacity-0 group-hover:opacity-100  group-hover:transition group-hover:duration-150">
+          <div className=" absolute top-0 left-0 z-30 ml-14 mt-hundredTwentyNine flex flex-col gap-10 opacity-0 group-hover:opacity-100  group-hover:transition group-hover:duration-150 ">
+            <div className="">
               <Heading
                 Heading={"h5"}
                 text={"Unisaas Website Design"}
